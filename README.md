@@ -1,53 +1,64 @@
 # ODS
 🚀 Real-Time Object Detection System
-This project is a Real-Time Object Detection System built using OpenCV’s Deep Neural Network (DNN) module and a pre-trained SSD MobileNet V3 model trained on the COCO dataset.
-The system captures live video from the webcam, detects multiple objects in real time, and displays bounding boxes along with object labels and confidence scores.
+
+A Real-Time Object Detection System built using OpenCV’s Deep Neural Network (DNN) module and a pre-trained SSD MobileNet V3 model trained on the COCO dataset.
+
+This application captures live video from a webcam, detects multiple objects in real time, and displays bounding boxes along with object labels and confidence scores.
 
 🔍 Features
+
 🎥 Real-time webcam object detection
+
 📦 Detects 80+ object categories (COCO dataset)
+
 🟢 Displays bounding boxes around detected objects
-🏷️ Shows object class name and confidence percentage
+
+🏷️ Shows object class names with confidence percentage
+
 ⚡ Fast and lightweight detection using MobileNet
 
 🛠️ Technologies Used
+
 Python
+
 OpenCV (cv2)
-Deep Learning (DNN module)
+
+Deep Learning (OpenCV DNN Module)
+
 SSD (Single Shot Detector)
+
 MobileNet V3
+
 COCO Dataset
 
 🧠 How It Works
-The system captures video input from the webcam.
-Each frame is passed through a pre-trained SSD MobileNet model.
+
+The system captures live video input from the webcam.
+
+Each video frame is passed through a pre-trained SSD MobileNet model.
+
 The model detects objects and returns:
+
 Class ID
+
 Confidence score
+
 Bounding box coordinates
-The detected objects are highlighted with bounding boxes and labels in real time.
 
-📂 Model Details
-Architecture: SSD MobileNet V3
-Dataset: COCO (Common Objects in Context)
-Framework: TensorFlow (pre-trained model)
+Detected objects are highlighted with bounding boxes and labeled with their respective class names and confidence scores.
 
-🎯 Applications
-Smart surveillance systems
-Automated monitoring
-Human detection systems
-AI-based vision applications
-Real-time object tracking foundations
+The system runs continuously until the user presses 'q' to exit.
 
-▶️ How to Run
-Install required libraries:
+📂 Project Structure
+├── main.py
+├── coco.names
+├── frozen_inference_graph.pb
+├── ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt
+└── README.md
+▶️ Installation & Usage
+1️⃣ Install Dependencies
 pip install opencv-python
-Ensure the following files are in the same directory:
-main.py
-coco.names
-frozen_inference_graph.pb
-ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt
-
-Run:
+2️⃣ Run the Application
 python main.py
-Press 'q' to exit.
+
+Press 'q' to stop the application.
