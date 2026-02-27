@@ -48,7 +48,7 @@ Detected objects are highlighted with bounding boxes and labeled with their resp
 
 The system runs continuously until the user presses 'q' to exit.
 
-📂 Project Structure
+📂 Project Structure :
 ├── main.py
 ├── coco.names
 ├── frozen_inference_graph.pb
