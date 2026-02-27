@@ -1,5 +1,5 @@
 # ODS
-🚀 Real-Time Object Detection System
+🚀 Real-Time Object Detection System:
 
 A Real-Time Object Detection System built using OpenCV’s Deep Neural Network (DNN) module and a pre-trained SSD MobileNet V3 model trained on the COCO dataset.
 This application captures live video from a webcam, detects multiple objects in real time, and displays bounding boxes along with object labels and confidence scores.
