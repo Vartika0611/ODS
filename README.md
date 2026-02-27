@@ -7,15 +7,15 @@ This application captures live video from a webcam, detects multiple objects in 
 
 🔍 Features
 
-🎥 Real-time webcam object detection
+🎥 Real-time webcam object detection.
 
-📦 Detects 80+ object categories (COCO dataset)
+📦 Detects 80+ object categories (COCO dataset).
 
-🟢 Displays bounding boxes around detected objects
+🟢 Displays bounding boxes around detected objects.
 
-🏷️ Shows object class names with confidence percentage
+🏷️ Shows object class names with confidence percentage.
 
-⚡ Fast and lightweight detection using MobileNet
+⚡ Fast and lightweight detection using MobileNet.
 
 🛠️ Technologies Used
 
